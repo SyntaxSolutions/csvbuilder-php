@@ -1,2 +1,2 @@
 # csvbuilder-php
-A simple way to format data into a comma-separated values (CSV) format
+A simple PHP library used to format data into comma-separated values (CSV) format.
