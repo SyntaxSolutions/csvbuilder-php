@@ -1,5 +1,5 @@
 <?php
-namespace SyntaxSolutions\CsvBuilder;
+namespace CsvBuilder;
 
 class CsvRow
 {
@@ -9,7 +9,7 @@ class CsvRow
      * CsvRow constructor.
      * @param array $options
      */
-    public function __construct($options = array())
+    public function __construct()
     {
         $this->cells = [];
     }

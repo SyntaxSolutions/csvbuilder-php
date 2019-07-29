@@ -1,5 +1,5 @@
 <?php
-namespace SyntaxSolutions\CsvBuilder;
+namespace CsvBuilder;
 
 class CsvBuilder
 {
@@ -12,7 +12,7 @@ class CsvBuilder
      * CsvBuilder constructor.
      * @param array $options
      */
-    public function __construct($options = array())
+    public function __construct()
     {
         // add a Byte Order Marker to the data stream to ensure Excel opens the CSV file with UTF8 encoding.
         $BOM = "\xEF\xBB\xBF"; // UTF-8 Byte Order Marker
