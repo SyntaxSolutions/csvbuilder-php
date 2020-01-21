@@ -1,5 +1,10 @@
 # CSV Builder for PHP
-A simple PHP library used to format data into comma-separated values (CSV)
+A simple PHP library used to format data into comma-separated values (CSV).
+
+## Features
+
+1. UTF-8 encoded. 
+1. Excel compatible.
 
 ## Installation
 
