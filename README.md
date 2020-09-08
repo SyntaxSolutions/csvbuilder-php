@@ -3,6 +3,7 @@ A simple PHP library used to format data into comma-separated values (CSV).
 
 ## Features
 
+1. RFC 4180 standard compliant 
 1. UTF-8 encoded. 
 1. Excel compatible.
 
