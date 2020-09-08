@@ -14,8 +14,8 @@ composer require syntaxsolutions/csvbuilder
 // Load Composer's autoloader
 require 'vendor/autoload.php';
 
-use CsvBuilder\CsvBuilder;
-use CsvBuilder\CsvRow;
+use SyntaxSolutions\CsvBuilder;
+use SyntaxSolutions\CsvRow;
 
 $builder = new CsvBuilder();
 

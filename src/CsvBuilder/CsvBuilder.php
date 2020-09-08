@@ -1,5 +1,5 @@
 <?php
-namespace CsvBuilder;
+namespace SyntaxSolutions\CsvBuilder;
 
 class CsvBuilder
 {

@@ -1,5 +1,5 @@
 <?php
-namespace CsvBuilder;
+namespace SyntaxSolutions\CsvBuilder;
 
 class CsvRow
 {
@@ -22,5 +22,4 @@ class CsvRow
     {
         $this->cells[] = "\"{$text}\"";
     }
-
 }

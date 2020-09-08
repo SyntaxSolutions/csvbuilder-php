@@ -1,8 +1,8 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use CsvBuilder\CsvBuilder;
-use CsvBuilder\CsvRow;
+use SyntaxSolutions\CsvBuilder\CsvBuilder;
+use SyntaxSolutions\CsvBuilder\CsvRow;
 
 $builder = new CsvBuilder();
 
