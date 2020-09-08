@@ -9,8 +9,7 @@ class CsvBuilder
     private $linebreak = PHP_EOL;
 
     /**
-     * CsvBuilder constructor.
-     * @param array $options
+     * Create a new CsvBuilder
      */
     public function __construct()
     {
@@ -21,7 +20,7 @@ class CsvBuilder
     }
 
     /**
-     * Add a CSVRow used for the column headers values
+     * Add a CsvRow used for the column headers values
      * @param CsvRow|null $row
      */
     public function addHeaders(CsvRow $row = null)
@@ -39,7 +38,7 @@ class CsvBuilder
     }
 
     /**
-     * Add CSVRow
+     * Add CsvRow
      * @param CsvRow|null $row
      */
     public function addRow(CsvRow $row = null)
